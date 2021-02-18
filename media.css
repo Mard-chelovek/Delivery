@@ -1,0 +1,66 @@
+@media screen and (max-width: 1136px){
+    .slider h1{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .producte_name{
+        font-size: 14px;
+    }
+    .card{
+        width: 48%;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .header_search{
+        top: 10px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .search_input{
+        max-width: 95%;
+    }
+
+    .header_content{
+        display: block;
+        align-items: flex-start;
+        padding: 19px 0;
+        position: relative;
+        max-width: 100%;
+    }
+    .header_buttons{
+        position: absolute;
+        right: 0;
+        top:5px;
+    }
+    .branches_search{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        width: 100%;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_right{
+        padding-top: 12px;
+    }
+    .slider h1{
+        font-size: 18px;
+    }
+    .slider h3{
+        font-size: 14px;
+    }
+}
