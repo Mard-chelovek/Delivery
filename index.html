@@ -23,7 +23,7 @@
                 </div>
                 <div class="header_buttons">
                     <button class="sign_in">Войти</button>
-                    <button class="cart">Корзина</button>
+                    <button class="cart">Корзина <span>0</span></button>
                 </div>
             </div>
         </div>
@@ -41,98 +41,7 @@
                         <input placeholder="Поиск блюд и ресторанов" class="restoran_search" type="text"></input>
                     </div>
                 </div>
-                <div class="cards">
-                    <div class="card">
-                        <div class="card_img"><img src="template/cards/rest_1.png" alt=""></div>
-                        <div class="card_about">
-                            <div class="card_about_top">
-                                <p class="producte_name">Пицца плюс</p>
-                                <p class="producte_time">50 мин</p>
-                            </div>
-                            <div class="card_about_buttom">
-                                <div class="stars_before">
-                                    <p class="stars">4.5</p>
-                                </div>
-                                <p class="price">От 900₽ • Пицца</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img"><img src="template/cards/rest_2.png" alt=""></div>
-                        <div class="card_about">
-                            <div class="card_about_top">
-                                <p class="producte_name">Тануки</p>
-                                <p class="producte_time">50 мин</p>
-                            </div>
-                            <div class="card_about_buttom">
-                                <div class="stars_before">
-                                    <p class="stars">4.5</p>
-                                </div>
-                                <p class="price">От 900₽ • Пицца</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img"><img src="template/cards/rest_3.png" alt=""></div>
-                        <div class="card_about">
-                            <div class="card_about_top">
-                                <p class="producte_name">FoodBand</p>
-                                <p class="producte_time">50 мин</p>
-                            </div>
-                            <div class="card_about_buttom">
-                                <div class="stars_before">
-                                    <p class="stars">4.5</p>
-                                </div>
-                                <p class="price">От 900₽ • Пицца</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img"><img src="template/cards/rest_4.png" alt=""></div>
-                        <div class="card_about">
-                            <div class="card_about_top">
-                                <p class="producte_name">Жадина-пицца</p>
-                                <p class="producte_time">50 мин</p>
-                            </div>
-                            <div class="card_about_buttom">
-                                <div class="stars_before">
-                                    <p class="stars">4.5</p>
-                                </div>
-                                <p class="price">От 900₽ • Пицца</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img"><img src="template/cards/rest_5.png" alt=""></div>
-                        <div class="card_about">
-                            <div class="card_about_top">
-                                <p class="producte_name">Точка еды</p>
-                                <p class="producte_time">50 мин</p>
-                            </div>
-                            <div class="card_about_buttom">
-                                <div class="stars_before">
-                                    <p class="stars">4.5</p>
-                                </div>
-                                <p class="price">От 900₽ • Пицца</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card_img"><img src="template/cards/rest_6.png" alt=""></div>
-                        <div class="card_about">
-                            <div class="card_about_top">
-                                <p class="producte_name">PizzaBurger</p>
-                                <p class="producte_time">50 мин</p>
-                            </div>
-                            <div class="card_about_buttom">
-                                <div class="stars_before">
-                                    <p class="stars">4.5</p>
-                                </div>
-                                <p class="price">От 900₽ • Пицца</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="cards"></div>
             </div>
         </div>
     </main>
@@ -164,5 +73,28 @@
             </div>
         </div>
     </footer>
+    <div class="modal_wrapper">
+        <div class="modal">
+            <div class="modal_header">
+                <div class="modal_header_left">
+                    Корзина
+                </div>
+                <div class="modal_header_right">
+                    <button class="modal_close"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="modal_main">
+            </div>
+            <div class="modal_footer">
+                <div class="modal_footer_left"><span>0</span> ₽</div>
+                <div class="modal_footer_right">
+                    <button class="buy">оформить заказ</button>
+                    <button class="cancle">отменить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./productes.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
